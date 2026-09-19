@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unique Star Athletics Club Trichy — Where Champions Are Forged</title>
+<meta name="description" content="Unique Star Athletics (USA) Club Trichy — professional track & field development club. New batch admissions open 2026-27.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!--
+  IMAGES: the photos below are loaded from Figma asset links that expire after ~7 days.
+  Download them once and replace each URL with a local file (e.g. images/team.png).
+  Search for "figma.com/api/mcp/asset" to find every place they are used.
+-->
+<style>
+:root{
+  --navy:#001b45; --blue:#072f6a; --orange:#f88400; --peach:#ffdcc4; --brown:#924c00;
+  --teal:#89f5e7; --teal-dark:#00221e; --teal-mid:#003934; --sky:#afc6ff; --sky-light:#d8e2ff;
+  --ink:#1a1c1c; --gray:#444750; --gray-soft:#747781; --bg:#f9f9f9; --bg-2:#f3f3f3; --bg-3:#e8e8e8; --line:#e2e2e2;
+  --font-head:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+  --font-body:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  --hdr:84px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.5;padding-top:var(--hdr);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+p{margin:0}
+h1,h2,h3,h4{margin:0;font-weight:inherit}
+section[id]{scroll-margin-top:var(--hdr)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px;width:100%}
+.ic{width:1em;height:1em;fill:currentColor;flex:none;display:inline-block;vertical-align:middle}
+
+/* ---------- shared type ---------- */
+.eyebrow{display:flex;align-items:center;gap:8px;font:700 11px/14px var(--font-body);letter-spacing:1.1px;text-transform:uppercase;color:var(--brown)}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--orange);flex:none}
+.h2{font:700 36px/40px var(--font-head);letter-spacing:.9px;text-transform:uppercase;color:var(--navy)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:8px;font:700 15px/18px var(--font-head);letter-spacing:.75px;text-transform:uppercase;color:#fff;transition:transform .15s,filter .15s,background .15s}
+.btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn-orange{background:var(--orange);box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1)}
+.btn .ic{font-size:16px}
+
+/* ---------- header ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.hdr-in{max-width:1280px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:var(--hdr)}
+.brand{display:flex;align-items:center;gap:14px;flex:none}
+.brand img{width:44px;height:44px;border-radius:50%;object-fit:cover;background:var(--blue)}
+.brand b{display:block;font:700 20px/22px var(--font-head);letter-spacing:1px;color:var(--navy);text-transform:uppercase}
+.brand small{display:block;font:700 10px/12px var(--font-body);letter-spacing:1.1px;color:var(--brown);text-transform:uppercase;margin-top:2px}
+.nav{display:flex;align-items:center;gap:22px}
+.nav a.lnk{font:700 15px/18px var(--font-head);letter-spacing:.75px;text-transform:uppercase;color:var(--gray);text-align:center;padding:4px 0;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.nav a.lnk:hover,.nav a.lnk.active{color:var(--navy);border-bottom-color:var(--orange)}
+.nav .wrap2{max-width:84px}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.nav-cta .btn{padding:8px 16px;font-size:15px;text-align:left;line-height:18px}
+.btn-join{background:var(--orange)}
+.btn-login{background:var(--blue)}
+.burger{display:none;background:none;border:0;color:var(--navy);font-size:28px;padding:6px;line-height:1}
+@media (max-width:1180px){
+  .burger{display:block}
+  .nav{position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 24px 20px;box-shadow:0 12px 24px rgba(0,27,69,.15);display:none;max-height:calc(100vh - var(--hdr));overflow:auto}
+  .nav.open{display:flex}
+  .nav a.lnk{text-align:left;padding:14px 0;border-bottom:1px solid var(--line)}
+  .nav .wrap2{max-width:none}
+  .nav-cta{flex-direction:column;align-items:stretch;padding-top:16px}
+  .nav-cta .btn{justify-content:center;padding:12px 16px}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--navy);min-height:680px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;filter:grayscale(.35)}
+.hero-bg::after{content:"";position:absolute;inset:0;background:#b2b2b2;mix-blend-mode:multiply}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:
+  linear-gradient(90deg,#001b45 0%,rgba(0,27,69,.85) 50%,rgba(7,47,106,.7) 100%),
+  linear-gradient(0deg,#001b45 0%,rgba(0,27,69,0) 50%);mix-blend-mode:multiply}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.35;background:repeating-linear-gradient(115deg,transparent 0 46px,rgba(175,198,255,.07) 46px 48px)}
+.hero-bar{position:absolute;left:0;right:0;bottom:0;height:12px;z-index:3;background:linear-gradient(90deg,#f88400,#ffdcc4,#f88400)}
+.hero-in{position:relative;z-index:2;padding-top:64px;padding-bottom:88px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:4px 12px;border-radius:999px;background:rgba(248,132,0,.2);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);font:700 11px/14px var(--font-body);letter-spacing:1.1px;text-transform:uppercase;color:var(--peach)}
+.pill::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--orange)}
+.hero h1{font:700 clamp(44px,8vw,72px)/1 var(--font-head);letter-spacing:.05em;text-transform:uppercase;color:#fff;max-width:768px;margin-top:16px;text-shadow:0 2px 2px rgba(0,0,0,.08),0 4px 3px rgba(0,0,0,.08)}
+.hero h1 span{color:var(--peach)}
+.hero p.lead{font:400 16px/26px var(--font-body);color:var(--sky);max-width:672px;margin-top:16px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:16px;margin-top:32px}
+.hero-btns .btn{padding:14px 24px}
+.btn-glass{background:rgba(255,255,255,.1);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.12)}
+.hero-meta{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;margin-top:48px;padding-top:25px;border-top:1px solid rgba(216,226,255,.2);font:600 12px/16px var(--font-body);letter-spacing:.12px;color:#fff}
+.hero-meta span{display:inline-flex;align-items:center;gap:8px}
+.hero-meta .ic{font-size:16px;color:var(--orange)}
+.hero-meta .dot{color:#c4c6d1}
+
+/* ---------- stats ---------- */
+.stats{position:relative;z-index:4;margin-top:-32px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:#fff;border-radius:12px;padding:24px;display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 10px 15px -3px rgba(0,0,0,.08),0 4px 6px -4px rgba(0,0,0,.08)}
+.stat .ico{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:22px;color:var(--navy);margin-bottom:12px}
+.stat .num{font:800 56px/56px var(--font-head);letter-spacing:.56px;color:var(--navy)}
+.stat .bar{width:40px;height:4px;border-radius:99px;background:var(--orange);margin:8px 0 4px}
+.stat .lbl{font:700 15px/18px var(--font-head);letter-spacing:.75px;text-transform:uppercase;color:var(--gray)}
+
+/* ---------- section head ---------- */
+.sec{padding:80px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:48px}
+.sec-head .h2{margin-top:8px}
+.sec-head p{max-width:448px;font:400 14px/20px var(--font-body);color:var(--gray)}
+
+/* ---------- achievements ---------- */
+.ach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.ach{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.05);display:flex;flex-direction:column}
+.ach-img{position:relative;height:224px;overflow:hidden}
+.ach-img>img{width:100%;height:100%;object-fit:cover}
+.ach-year{position:absolute;top:16px;right:16px;background:var(--orange);color:#fff;font:700 15px/18px var(--font-head);letter-spacing:.9px;padding:4px 12px;border-radius:6px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.05))}
+.ach-tag{position:absolute;left:12px;bottom:12px;display:flex;align-items:center;gap:6px;background:rgba(0,27,69,.9);color:#fff;font:600 11px/14px var(--font-body);letter-spacing:.22px;padding:4px 10px;border-radius:999px}
+.ach-tag .ic{font-size:12px;color:var(--orange)}
+.ach-body{padding:23px 24px 24px;display:flex;flex-direction:column;justify-content:space-between;flex:1}
+.ach-body h3{font:700 20px/27.5px var(--font-head);letter-spacing:.4px;text-transform:uppercase;color:var(--navy)}
+.ach-body p{font:400 12px/19.5px var(--font-body);color:var(--gray);margin-top:8px}
+.ach-foot{margin-top:24px;padding-top:17px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--brown)}
+.ach-foot .ic{font-size:13px}
+.center{display:flex;justify-content:center;margin-top:48px}
+.btn-gray{background:var(--bg-3);color:var(--navy);padding:12px 24px;letter-spacing:.75px}
+.btn-gray .ic{font-size:14px}
+
+/* ---------- athletes ---------- */
+.athletes{background:var(--bg-2)}
+.ath-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.ath{background:#fff;border-radius:12px;padding:20px;display:flex;flex-direction:column;justify-content:space-between;filter:drop-shadow(0 1px 1px rgba(0,0,0,.05))}
+.ath-photo{position:relative;height:240px;border-radius:8px;overflow:hidden}
+.ath-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.badge-pr{position:absolute;left:12px;top:12px;background:var(--orange);color:#fff;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;padding:2px 10px;border-radius:999px}
+.badge-role{position:absolute;right:12px;bottom:12px;background:rgba(0,34,30,.8);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);color:var(--teal);font:600 11px/14px var(--font-body);letter-spacing:.22px;padding:2px 8px;border-radius:999px}
+.ath h3{font:700 18px/26px var(--font-body);color:var(--navy);padding-top:14px}
+.ath .ev{font:600 12px/16px var(--font-body);letter-spacing:.12px;text-transform:uppercase;color:var(--brown)}
+.ath .ds{font:400 12px/16px var(--font-body);color:var(--gray);padding-top:6px}
+.ath-foot{margin-top:16px;padding-top:13px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:8px;font:600 11px/14px var(--font-body);letter-spacing:.22px}
+.ath-foot span:first-child{color:var(--gray-soft)}
+.ath-foot span:last-child{font-weight:700;color:var(--navy)}
+
+/* ---------- gallery ---------- */
+.seg{display:flex;gap:8px;background:#eee;padding:4px;border-radius:8px}
+.seg button{border:0;background:transparent;border-radius:6px;padding:6px 16px;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--gray)}
+.seg button.on{background:var(--navy);color:#fff}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:start}
+.g{position:relative;border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.05);background:var(--navy)}
+.g.h384{height:384px}.g.h256{height:256px}
+.g.span2{grid-column:span 2}
+.g img.ph{width:100%;height:100%;object-fit:cover}
+.g::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,27,69,.9),rgba(0,27,69,0) 55%);pointer-events:none}
+.g.h256::after{background:linear-gradient(0deg,rgba(0,27,69,.8),rgba(0,27,69,0) 55%)}
+.g .cap{position:absolute;z-index:2;left:24px;right:24px;bottom:24px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.g.h256 .cap{left:16px;right:16px;bottom:16px}
+.g .tag{display:inline-block;background:var(--orange);color:#fff;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;padding:4px 10px;border-radius:4px;margin-bottom:7px}
+.g .tag.dark{background:var(--teal-dark);color:var(--teal)}
+.g h4{font:700 20px/24px var(--font-head);letter-spacing:.4px;text-transform:uppercase;color:#fff}
+.g h5{margin:0;font:700 16px/24px var(--font-body);color:#fff}
+.g .ic.big{font-size:24px;color:#fff}
+.g.video img.ph{filter:grayscale(.3)}
+.play{position:absolute;inset:0;z-index:2;display:grid;place-items:center;background:rgba(0,27,69,.4)}
+.play i{width:56px;height:56px;border-radius:50%;background:var(--orange);display:grid;place-items:center;color:#fff;font-size:24px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1)}
+.g.video::after{background:none}
+.g.hide{display:none}
+
+/* ---------- coach ---------- */
+.coach{position:relative;background:var(--navy);color:#fff;overflow:hidden;padding:80px 0}
+.coach::before{content:"";position:absolute;top:0;bottom:0;right:-80px;width:384px;background:linear-gradient(180deg,rgba(175,198,255,.12),rgba(175,198,255,.02));transform:skewX(-14deg);pointer-events:none}
+.coach-grid{position:relative;display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:center}
+.coach-photo{position:relative;border-radius:16px;overflow:hidden;background:var(--blue);max-width:448px;aspect-ratio:448/638;width:100%}
+.coach-photo>img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.coach-badge{position:absolute;top:19px;left:16px;background:var(--orange);color:#fff;font:700 11px/14px var(--font-body);letter-spacing:.55px;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.coach-cap{position:absolute;left:0;right:0;bottom:0;padding:24px;background:linear-gradient(0deg,#001b45,rgba(0,27,69,.8) 50%,rgba(0,27,69,0))}
+.coach-cap h3{font:700 26px/30px var(--font-head);letter-spacing:.52px;text-transform:uppercase}
+.coach-cap p{font:600 12px/16px var(--font-body);letter-spacing:.12px;color:var(--peach)}
+.pill-brown{display:inline-flex;align-items:center;gap:8px;background:rgba(146,76,0,.2);padding:4px 12px;border-radius:999px;font:700 11px/14px var(--font-body);letter-spacing:1.1px;text-transform:uppercase;color:var(--peach)}
+.pill-brown::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--brown)}
+.coach h2{font:700 36px/40px var(--font-head);letter-spacing:.9px;text-transform:uppercase;margin-top:16px}
+.coach .quote{font:400 16px/26px var(--font-body);color:var(--sky);margin-top:16px}
+.coach .bio{font:400 14px/22.75px var(--font-body);color:var(--bg-3);margin-top:11px}
+.creds{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px}
+.cred{display:flex;gap:12px;background:rgba(7,47,106,.6);border-radius:8px;padding:14px}
+.cred .ic{font-size:21px;color:var(--orange);margin-top:2px}
+.cred b{display:block;font:700 15px/18px var(--font-head);letter-spacing:.9px;text-transform:uppercase}
+.cred span{display:block;font:400 12px/16px var(--font-body);color:var(--sky);margin-top:4px}
+.coach-cta{display:flex;flex-wrap:wrap;gap:16px;margin-top:32px}
+.coach-cta .btn{padding:10px 20px}
+.btn-teal{background:var(--teal-mid);color:var(--teal)}
+
+/* ---------- contact ---------- */
+.contact{padding:80px 0}
+.contact-head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;max-width:672px;margin:0 auto 64px}
+.contact-head .h2{margin-top:0}
+.contact-head p{font:400 14px/20px var(--font-body);color:var(--gray)}
+.contact-grid{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:stretch}
+.stack{display:flex;flex-direction:column;gap:24px}
+.card{background:#fff;border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.info{padding:24px;display:flex;flex-direction:column;gap:20px}
+.who{display:flex;align-items:center;gap:16px;padding-bottom:17px;border-bottom:1px solid var(--line)}
+.who img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 20%}
+.who b{display:block;font:700 18px/26px var(--font-body);color:var(--navy)}
+.who small{display:block;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--brown)}
+.row{display:flex;gap:14px}
+.row .bx{width:36px;height:36px;border-radius:8px;display:grid;place-items:center;font-size:16px;color:var(--navy);flex:none}
+.row small{display:block;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--gray)}
+.row strong{display:block;font:700 16px/24px var(--font-body);color:var(--navy);margin-top:3px}
+.row .sub{font:400 12px/16px var(--font-body);color:var(--gray)}
+.row .soc{display:flex;flex-wrap:wrap;gap:6px 12px;font:600 12px/16px var(--font-body);letter-spacing:.12px;color:var(--gray);margin-top:7px}
+.row a:hover{color:var(--orange)}
+.map{position:relative;height:192px;border-radius:12px;overflow:hidden;display:flex;align-items:flex-end;justify-content:flex-end;padding:16px;background:var(--bg-3)}
+.map img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.map span{position:relative;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.9);padding:6px 12px;border-radius:8px;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--navy)}
+.map .ic{font-size:14px;color:var(--orange)}
+
+.form-card{padding:32px;display:flex;flex-direction:column;gap:24px}
+.form-card h3{font:700 20px/24px var(--font-head);letter-spacing:.4px;text-transform:uppercase;color:var(--navy)}
+.form-card .sub{font:400 12px/16px var(--font-body);color:var(--gray);margin-top:4px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--gray)}
+.field input{height:44px;background:var(--bg);border:1px solid transparent;border-radius:8px;padding:0 14px;font:400 14px/17px var(--font-body);color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s,background .15s;width:100%}
+.field input::placeholder{color:#9ca3af}
+.field input:focus{border-color:var(--orange);background:#fff;box-shadow:0 0 0 3px rgba(248,132,0,.18)}
+.field input.bad{border-color:#ba1a1a;background:#fff5f5}
+.submit{width:100%;padding:14px;margin-top:8px}
+.submit[disabled]{opacity:.7;cursor:wait;transform:none}
+.msg{display:none;border-radius:8px;padding:12px 14px;font:600 13px/18px var(--font-body)}
+.msg.ok{display:block;background:#e6f7f2;color:#00594f;border:1px solid #8fd8cb}
+.msg.err{display:block;background:#fdecec;color:#8b1a1a;border:1px solid #f2b5b5}
+.form-note{font:400 11px/16px var(--font-body);color:var(--gray-soft)}
+
+/* ---------- footer ---------- */
+.foot{background:var(--blue);color:#fff;padding:64px 0 24px}
+.foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:49px;border-bottom:1px solid rgba(216,226,255,.15)}
+.foot .brand b{color:#fff}
+.foot .brand small{color:var(--peach)}
+.foot .brand img{width:40px;height:40px}
+.foot p.about{font:400 12px/19.5px var(--font-body);color:var(--sky);margin-top:16px;max-width:240px}
+.foot h4{font:700 15px/18px var(--font-head);letter-spacing:.75px;text-transform:uppercase;color:var(--peach);margin-bottom:12px}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.foot li,.foot li a{font:400 12px/16px var(--font-body);color:var(--sky)}
+.foot li a:hover{color:#fff}
+.foot .portal p{font:400 12px/16px var(--font-body);color:var(--sky);margin-bottom:16px}
+.foot .portal .btn{padding:10px 16px;width:100%;text-align:left}
+.foot-bottom{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;padding-top:32px;font:600 11px/14px var(--font-body);letter-spacing:.22px;color:var(--sky)}
+.foot-bottom div{display:flex;flex-wrap:wrap;gap:8px 16px}
+
+/* ---------- portal (athlete / coach login + payments) ---------- */
+.ov{position:fixed;inset:0;z-index:100;background:rgba(0,27,69,.62);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;padding:24px;overflow:auto}
+.ov.open{display:flex}
+.dlg{background:#fff;border-radius:16px;width:100%;max-width:440px;margin:auto;box-shadow:0 25px 50px -12px rgba(0,0,0,.35);position:relative}
+.dlg.wide{max-width:1040px}
+.dlg-h{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 24px;border-bottom:1px solid var(--line)}
+.dlg-h h3{font:700 22px/26px var(--font-head);letter-spacing:.5px;text-transform:uppercase;color:var(--navy)}
+.x{background:var(--bg-3);border:0;border-radius:8px;width:36px;height:36px;display:grid;place-items:center;font-size:18px;color:var(--navy)}
+.dlg-b{padding:24px}
+.tabs{display:flex;gap:6px;background:#eee;padding:4px;border-radius:8px;margin-bottom:20px}
+.tabs button{flex:1;border:0;background:transparent;border-radius:6px;padding:8px;font:700 13px/16px var(--font-head);letter-spacing:.75px;text-transform:uppercase;color:var(--gray)}
+.tabs button.on{background:var(--navy);color:#fff}
+.stk{display:flex;flex-direction:column;gap:16px}
+.field select,.field textarea{height:44px;background:var(--bg);border:1px solid transparent;border-radius:8px;padding:0 14px;font:400 14px/17px var(--font-body);color:var(--ink);outline:none;width:100%}
+.field select:focus{border-color:var(--orange);background:#fff}
+.hint{font:400 12px/16px var(--font-body);color:var(--gray-soft)}
+.btn-navy{background:var(--navy)}
+.btn-sm{padding:8px 14px;font-size:14px}
+.btn-outline{background:#fff;color:var(--navy);border:1px solid var(--line)}
+.btn-danger{background:#ba1a1a}
+.btn-ok{background:#0a7a6c}
+.res{background:var(--bg);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;font:400 14px/20px var(--font-body)}
+.res b{font:700 16px var(--font-body);color:var(--navy)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.kpi{background:var(--bg);border-radius:10px;padding:12px 14px}
+.kpi small{display:block;font:700 10px/12px var(--font-body);letter-spacing:.5px;text-transform:uppercase;color:var(--gray-soft)}
+.kpi strong{display:block;font:800 26px/30px var(--font-head);color:var(--navy);margin-top:2px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+.tools input,.tools select{height:38px;border:1px solid var(--line);border-radius:8px;padding:0 12px;font:400 13px var(--font-body);background:#fff}
+.tools .sp{flex:1}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:13px}
+th{background:var(--bg);text-align:left;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;color:var(--gray);padding:10px 12px;white-space:nowrap}
+td{padding:10px 12px;border-top:1px solid var(--line);vertical-align:middle}
+td.acts{white-space:nowrap;display:flex;gap:6px}
+.st{display:inline-block;font:700 11px/14px var(--font-body);letter-spacing:.22px;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+.st.paid{background:#dcf5ef;color:#00594f}.st.partial{background:#fff0d9;color:#8a4b00}.st.pending{background:#fde3e3;color:#8b1a1a}
+.empty{padding:32px;text-align:center;color:var(--gray-soft)}
+.edit{background:var(--bg);border-radius:12px;padding:16px;margin-bottom:20px;display:none}
+.edit.open{display:block}
+.edit .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.edit .field.full{grid-column:1/-1}
+.edit textarea{height:auto;padding:10px 14px;resize:vertical;min-height:44px}
+.edit-actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.warn{background:#fff8e6;border:1px solid #f3d48a;color:#6b4a00;border-radius:8px;padding:10px 12px;font:400 12px/16px var(--font-body);margin-bottom:16px}
+
+/* ---------- responsive ---------- */
+@media (max-width:1024px){
+  .ach-grid{grid-template-columns:repeat(2,1fr);gap:24px}
+  .ath-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .coach-grid,.contact-grid{grid-template-columns:1fr}
+  .coach-photo{max-width:420px;margin:0 auto}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .g.span2{grid-column:span 2}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .edit .grid{grid-template-columns:repeat(2,1fr)}
+  .sec,.contact,.coach{padding:64px 0}
+}
+@media (max-width:640px){
+  :root{--hdr:72px}
+  .brand b{font-size:17px;line-height:19px}
+  .brand img{width:38px;height:38px}
+  .hero{min-height:600px}
+  .hero-in{padding-bottom:72px}
+  .hero-meta{margin-top:32px}
+  .h2,.coach h2{font-size:30px;line-height:34px}
+  .ach-grid,.ath-grid,.creds,.f-row,.foot-grid{grid-template-columns:1fr}
+  .gal{grid-template-columns:1fr}
+  .g.span2{grid-column:span 1}
+  .g.h384{height:300px}
+  .form-card{padding:24px 20px}
+  .stat .num{font-size:44px;line-height:44px}
+  .stat{padding:18px 12px}
+  .edit .grid{grid-template-columns:1fr}
+  .ov{padding:12px}
+  .dlg-b{padding:16px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<!-- ============ SVG ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-play-c" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"/></symbol>
+    <symbol id="i-verified" viewBox="0 0 24 24"><path d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/></symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24"><path d="M12 2l3 6 6 .9-4.4 4.2 1.1 6-5.7-3-5.7 3 1.1-6L3 8.9 9 8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm4 12h-3v3h-2v-3H8v-2h3V8h2v3h3v2z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM7 12h5v5H7z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M21 11V3h-8l3.29 3.29-10 10L3 13v8h8l-3.29-3.29 10-10z"/></symbol>
+    <symbol id="i-fit" viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></symbol>
+    <symbol id="i-at" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></symbol>
+    <symbol id="i-del" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 000-1.41l-2.34-2.34a1 1 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></symbol>
+    <symbol id="i-dl" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="top">
+  <div class="hdr-in">
+    <a class="brand" href="#top" aria-label="Unique Star Athletics Club Trichy — home">
+      <img src="https://www.figma.com/api/mcp/asset/dc6c9f2a-cd45-4fd7-a8e2-8faf815e6513.png" alt="Unique Star Athletics emblem">
+      <span><b>Unique Star<br>Athletics</b><small>Club Trichy • Est. 2018</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><svg class="ic"><use href="#i-menu"/></svg></button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a class="lnk active" href="#top">Home</a>
+      <a class="lnk" href="#achievements">Achievements</a>
+      <a class="lnk wrap2" href="#athletes">Athlete Spotlight</a>
+      <a class="lnk" href="#gallery">Gallery</a>
+      <a class="lnk wrap2" href="#coach">Meet the Coach</a>
+      <a class="lnk" href="#contact">Contact</a>
+      <div class="nav-cta">
+        <a class="btn btn-join" href="#enquire"><svg class="ic"><use href="#i-person"/></svg><span>Join<br>Club</span></a>
+        <button class="btn btn-login" type="button" data-open-portal><svg class="ic"><use href="#i-person"/></svg><span>Athlete /<br>Coach Login</span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg"><img src="https://www.figma.com/api/mcp/asset/e63beae1-7e71-42fe-ad12-6316ee660802.png" alt="" ></div>
+  <div class="wrap hero-in">
+    <span class="pill">New Batch Admissions Open 2026-27</span>
+    <h1 id="hero-title">Where Champions <span>Are<br>Forged</span></h1>
+    <p class="lead">Track &amp; Field Excellence Since 2018. Professional sprinters, middle-distance champions, and field athlete development in Trichy &amp; South Zone Tamil Nadu.</p>
+    <div class="hero-btns">
+      <a class="btn btn-orange" href="#enquire"><svg class="ic"><use href="#i-person"/></svg>Join the Club / Contact Coach</a>
+      <a class="btn btn-glass" href="#gallery"><svg class="ic"><use href="#i-play-c"/></svg>Watch Our Story</a>
+    </div>
+    <div class="hero-meta">
+      <span><svg class="ic"><use href="#i-pin"/></svg>SRM TRP Engineering College Grounds</span>
+      <span class="dot">•</span>
+      <span><svg class="ic"><use href="#i-clock"/></svg>Morning 6:00-9:00 AM | Evening 4:30-7:30 PM</span>
+    </div>
+  </div>
+  <div class="hero-bar"></div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats" aria-label="Club statistics">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat"><div class="ico" style="background:var(--peach)"><svg class="ic"><use href="#i-trophy"/></svg></div><div class="num">140+</div><div class="bar"></div><div class="lbl">Total Medals</div></div>
+      <div class="stat"><div class="ico" style="background:var(--sky-light)"><svg class="ic"><use href="#i-star"/></svg></div><div class="num">28</div><div class="bar"></div><div class="lbl">State / Nat'l Champions</div></div>
+      <div class="stat"><div class="ico" style="background:var(--teal)"><svg class="ic"><use href="#i-group"/></svg></div><div class="num">65+</div><div class="bar"></div><div class="lbl">Active Track Athletes</div></div>
+      <div class="stat"><div class="ico" style="background:var(--bg-3)"><svg class="ic"><use href="#i-cal"/></svg></div><div class="num">8+</div><div class="bar"></div><div class="lbl">Years of Excellence</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="sec" id="achievements">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Podium Finishes &amp; Records</div>
+        <h2 class="h2">Club Achievements</h2>
+      </div>
+      <p>Consistently raising the bar across South Zone Championships, Tamil Nadu State Meets, and National Invitational Sprints.</p>
+    </div>
+    <div class="ach-grid">
+      <article class="ach">
+        <div class="ach-img"><img src="https://www.figma.com/api/mcp/asset/e63beae1-7e71-42fe-ad12-6316ee660802.png" alt="USA Athletics team on the track" style="object-position:50% 40%"><span class="ach-year">2026</span><span class="ach-tag"><svg class="ic"><use href="#i-trophy"/></svg>Overall Trophy</span></div>
+        <div class="ach-body"><div><h3>Overall Champions – State<br>Athletics Meet 2026</h3><p>USA team swept 18 individual medals including 9 Gold medals across Under-18 and Senior track brackets, securing the prestigious state club banner.</p></div>
+        <div class="ach-foot"><span>Tamil Nadu State Meet</span><svg class="ic"><use href="#i-arrow"/></svg></div></div>
+      </article>
+      <article class="ach">
+        <div class="ach-img"><img src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="District sprint sweep medalist" style="object-position:50% 15%"><span class="ach-year">2025</span><span class="ach-tag"><svg class="ic"><use href="#i-bolt"/></svg>Record Time</span></div>
+        <div class="ach-body"><div><h3>District Sprint Sweep 100M<br>&amp; 200M Gold</h3><p>Dominant podium sweep in the Open Men's 100m sprint and 200m curves with personal bests clocked under electronic track timers.</p></div>
+        <div class="ach-foot"><span>Trichy District Championship</span><svg class="ic"><use href="#i-arrow"/></svg></div></div>
+      </article>
+      <article class="ach">
+        <div class="ach-img"><img src="https://www.figma.com/api/mcp/asset/e63beae1-7e71-42fe-ad12-6316ee660802.png" alt="Relay team on the track" style="object-position:50% 40%"><span class="ach-year">2025</span><span class="ach-tag"><svg class="ic"><use href="#i-flag"/></svg>4x100m Gold</span></div>
+        <div class="ach-body"><div><h3>South Zone Inter-Club<br>Relay Champions</h3><p>Precision baton exchanges fueled a sub-42.30s relay finish, setting a new meet benchmark among South Indian athletic contingents.</p></div>
+        <div class="ach-foot"><span>South Zone Athletics Meet</span><svg class="ic"><use href="#i-arrow"/></svg></div></div>
+      </article>
+    </div>
+    <div class="center"><a class="btn btn-gray" href="#athletes">View Full Championship Roll • 2018 - 2026 <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
+
+<!-- ============ FEATURED ATHLETES ============ -->
+<section class="sec athletes" id="athletes">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Roster Spotlight</div>
+        <h2 class="h2">Featured Athletes</h2>
+      </div>
+      <p style="font-weight:600;font-size:12px;line-height:16px;letter-spacing:.12px">Training under Head Coach Vignesh</p>
+    </div>
+    <div class="ath-grid">
+      <article class="ath"><div>
+        <div class="ath-photo"><img src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="Karthik R."><span class="badge-pr">PR: 10.82S</span><span class="badge-role">Athlete</span></div>
+        <h3>Karthik R.</h3><div class="ev">100M / 200M Sprint</div><p class="ds">Tamil Nadu State Silver Medalist, Under-20 Division.</p></div>
+        <div class="ath-foot"><span>Joined: 2021</span><span>5x Gold Medals</span></div></article>
+      <article class="ath"><div>
+        <div class="ath-photo"><img src="https://www.figma.com/api/mcp/asset/f5a38381-2aa9-44c1-b3a7-5631fbf1783a.png" alt="Arun Kumar"><span class="badge-pr">PR: 53.40S</span><span class="badge-role">Athlete</span></div>
+        <h3>Arun Kumar</h3><div class="ev">400M Hurdles</div><p class="ds">District Champion, All-India Inter-University Qualifier.</p></div>
+        <div class="ath-foot"><span>Joined: 2022</span><span>4x Gold Medals</span></div></article>
+      <article class="ath"><div>
+        <div class="ath-photo"><img src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="Dinesh M."><span class="badge-pr">PR: 7.24M</span><span class="badge-role">Athlete</span></div>
+        <h3>Dinesh M.</h3><div class="ev">Long Jump</div><p class="ds">South Zone Bronze Winner with explosive take-off form.</p></div>
+        <div class="ath-foot"><span>Joined: 2023</span><span>3x Gold Medals</span></div></article>
+      <article class="ath"><div>
+        <div class="ath-photo"><img src="https://www.figma.com/api/mcp/asset/f5a38381-2aa9-44c1-b3a7-5631fbf1783a.png" alt="USA Relay Unit"><span class="badge-pr">PR: 42.18S</span><span class="badge-role">Team</span></div>
+        <h3>USA Relay Unit</h3><div class="ev">4x100M Sprint Relay</div><p class="ds">Undefeated across 6 invitational district meets.</p></div>
+        <div class="ath-foot"><span>Joined: 2020</span><span>8x Gold Medals</span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec" id="gallery">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:32px">
+      <div>
+        <div class="eyebrow">Life at Track</div>
+        <h2 class="h2">Photo &amp; Video Gallery</h2>
+      </div>
+      <div class="seg" role="tablist" aria-label="Gallery filter">
+        <button type="button" class="on" data-f="all">All</button>
+        <button type="button" data-f="photos">Photos</button>
+        <button type="button" data-f="videos">Videos</button>
+        <button type="button" data-f="meets">Meets</button>
+      </div>
+    </div>
+    <div class="gal" id="gal">
+      <figure class="g h384 span2" data-t="photos meets" style="margin:0">
+        <img class="ph" src="https://www.figma.com/api/mcp/asset/e63beae1-7e71-42fe-ad12-6316ee660802.png" alt="Championship contingent" style="object-position:50% 35%">
+        <figcaption class="cap"><div><span class="tag">Championship Contingent</span><h4>Annual Inter-District Meet Roster</h4></div><svg class="ic big"><use href="#i-expand"/></svg></figcaption>
+      </figure>
+      <figure class="g h384" data-t="photos meets" style="margin:0">
+        <img class="ph" src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="Morning sprint drill session" style="object-position:50% 15%">
+        <figcaption class="cap" style="display:block"><span class="tag dark">Daily Training</span><h4>Morning Sprint Drill Session</h4></figcaption>
+      </figure>
+      <figure class="g h256" data-t="photos" style="margin:0">
+        <img class="ph" src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="Block starts" style="object-position:50% 20%">
+        <figcaption class="cap" style="display:block"><h5>Block Starts &amp; Reaction Time</h5></figcaption>
+      </figure>
+      <figure class="g h256" data-t="photos" style="margin:0">
+        <img class="ph" src="https://www.figma.com/api/mcp/asset/e63beae1-7e71-42fe-ad12-6316ee660802.png" alt="SRM TRP Engineering College ground" style="object-position:50% 40%">
+        <figcaption class="cap" style="display:block;padding-right:40px"><h5>SRM TRP Engineering College<br>Ground</h5></figcaption>
+      </figure>
+      <figure class="g h256 video" data-t="videos" style="margin:0">
+        <img class="ph" src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="High intensity sprint conditioning video" style="object-position:50% 20%">
+        <div class="play"><i><svg class="ic"><use href="#i-play"/></svg></i></div>
+        <figcaption class="cap" style="display:block;z-index:3"><h5>High Intensity Sprint Conditioning</h5></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEET THE COACH ============ -->
+<section class="coach" id="coach">
+  <div class="wrap coach-grid">
+    <div class="coach-photo">
+      <img src="https://www.figma.com/api/mcp/asset/175a8a4e-4c45-48c4-88ee-96fc7b701df9.png" alt="Head Coach Vignesh">
+      <span class="coach-badge">Head Coach • Founder</span>
+      <div class="coach-cap"><h3>Coach Vignesh</h3><p>Director of Performance &amp; Sprint Specialist</p></div>
+    </div>
+    <div>
+      <span class="pill-brown">10+ Years Coaching Experience</span>
+      <h2>Built on discipline, driven by<br>passion</h2>
+      <p class="quote">"Athletics is not merely about stopwatch times; it is about character, grit, and the relentless desire to beat your own past record."</p>
+      <p class="bio">Under Coach Vignesh's leadership since 2018, Unique Star Athletics has transformed raw student potential in Trichy and neighboring districts into podium-winning national contenders. With structured biomechanical analysis, periodized conditioning, and personalized nutrition guidance, every athlete is given collegiate-grade athletic support.</p>
+      <div class="creds">
+        <div class="cred"><svg class="ic"><use href="#i-verified"/></svg><div><b>NIS Certified Coach</b><span>National Institute of Sports accredited Track &amp; Field instructor.</span></div></div>
+        <div class="cred"><svg class="ic"><use href="#i-trophy"/></svg><div><b>World Athletics Level 1</b><span>Certified technical official &amp; youth athletics conditioning coach.</span></div></div>
+        <div class="cred"><svg class="ic"><use href="#i-medal"/></svg><div><b>Former State Medalist</b><span>Over a decade of competitive sprinting and relay honors in Tamil Nadu.</span></div></div>
+        <div class="cred"><svg class="ic"><use href="#i-shield"/></svg><div><b>Injury Prevention Specialist</b><span>Focus on kinetic chain health, recovery protocols, and joint longevity.</span></div></div>
+      </div>
+      <div class="coach-cta">
+        <a class="btn btn-orange" href="tel:+918825860387"><svg class="ic"><use href="#i-phone"/></svg>Direct Call: +91 882 586 0387</a>
+        <a class="btn btn-teal" href="https://wa.me/918825860387" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg>WhatsApp Coach</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT & ENROLLMENT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-head">
+      <div class="eyebrow">Start Your Journey</div>
+      <h2 class="h2">Contact &amp; Club Enrollment</h2>
+      <p>Whether you are a budding school sprinter, college student, or seeking elite track training, our doors are open for trial evaluations.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="stack">
+        <div class="card info">
+          <div class="who"><img src="https://www.figma.com/api/mcp/asset/577e376f-ef43-4eb5-a5d0-9874f8d793c0.png" alt="Coach Vignesh"><div><b>Coach Vignesh</b><small>Unique Star Athletics Club</small></div></div>
+          <div class="row"><div class="bx" style="background:var(--sky-light)"><svg class="ic"><use href="#i-phone"/></svg></div><div><small>Direct Phone</small><strong><a href="tel:+918825860387">+91 882 586 0387</a></strong></div></div>
+          <div class="row"><div class="bx" style="background:var(--peach)"><svg class="ic"><use href="#i-clock"/></svg></div><div><small>Training Timings</small><strong style="font-size:14px;line-height:20px;font-weight:600">Morning: 6:00 AM – 9:00 AM</strong><strong style="font-size:14px;line-height:20px;font-weight:600;margin-top:0">Evening: 4:30 PM – 7:30 PM</strong></div></div>
+          <div class="row"><div class="bx" style="background:var(--teal)"><svg class="ic"><use href="#i-pin"/></svg></div><div><small>Training Venue</small><strong style="font-size:14px;line-height:20px;font-weight:600">SRM TRP Engineering College<br>Grounds / Stadium</strong><div class="sub" style="margin-top:3px">Irungalur, Mannachanallur Taluk,<br>Tiruchirappalli, Tamil Nadu 621105</div></div></div>
+          <div class="row"><div class="bx" style="background:var(--bg-3)"><svg class="ic"><use href="#i-at"/></svg></div><div><small>Social Handles</small><div class="soc"><span>@trichysbeauty</span><span>•</span><span>YouTube: Unique Star Athletics</span></div></div></div>
+        </div>
+        <div class="map"><img src="https://www.figma.com/api/mcp/asset/0fc2a700-ebf6-4544-8b95-cd46264f9f0b.png" alt="Map of the training venue"><span><svg class="ic"><use href="#i-pin"/></svg>SRM TRP Sports Arena • Trichy</span></div>
+      </div>
+
+      <div class="card form-card" id="enquire">
+        <div><h3>Enquire / Join the Club</h3><p class="sub">Fill out the quick athlete details below. Coach Vignesh will contact you within 24 hours.</p></div>
+        <form id="enquiryForm" novalidate autocomplete="on">
+          <div class="stk" style="gap:16px">
+            <div class="f-row">
+              <div class="field"><label for="f-name">Athlete Full Name *</label><input id="f-name" name="name" type="text" placeholder="e.g. Rahul Sundaram" autocomplete="name" required></div>
+              <div class="field"><label for="f-phone">Phone Number (WhatsApp) *</label><input id="f-phone" name="phone" type="tel" placeholder="+91 98765 43210" autocomplete="tel" required></div>
+            </div>
+            <div class="field"><label for="f-email">Email Address</label><input id="f-email" name="email" type="email" placeholder="athlete@example.com" autocomplete="email"></div>
+            <button class="btn btn-orange submit" id="submitBtn" type="submit"><svg class="ic"><use href="#i-send"/></svg><span id="submitLbl">Submit Registration Enquiry</span></button>
+            <div id="formMsg" class="msg" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand"><img src="https://www.figma.com/api/mcp/asset/dc6c9f2a-cd45-4fd7-a8e2-8faf815e6513.png" alt=""><span><b>Unique Star<br>Athletics</b><small>Club Trichy</small></span></div>
+        <p class="about">Professional track and field development club based in Tiruchirappalli, Tamil Nadu. Dedicated to producing national athletes and fostering sports discipline since 2018.</p>
+      </div>
+      <div>
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#top">Home • Overview</a></li>
+          <li><a href="#achievements">Championship Medals</a></li>
+          <li><a href="#athletes">Athlete Spotlight</a></li>
+          <li><a href="#gallery">Photo &amp; Video Media</a></li>
+          <li><a href="#coach">Head Coach Profile</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Training Programs</h4>
+        <ul>
+          <li>Junior Track Foundation (Under-14)</li>
+          <li>Elite Sprint &amp; Hurdle Unit</li>
+          <li>State &amp; National Meet Prep</li>
+          <li>Physical Fitness &amp; Agility Camps</li>
+          <li>Venue: SRM TRP Engg College Ground</li>
+        </ul>
+      </div>
+      <div class="portal">
+        <h4>Club Portal</h4>
+        <p>Enrolled athletes and coaching staff can access training schedules, attendance records, and performance metrics here:</p>
+        <button class="btn btn-orange" type="button" data-open-portal><svg class="ic"><use href="#i-person"/></svg><span>Athlete / Coach<br>Login</span></button>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Unique Star Athletics (USA) Club Trichy. All Rights Reserved.</span>
+      <div><span>Head Coach: Vignesh</span><span>•</span><span>Contact: +91 882 586 0387</span></div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ PORTAL: ATHLETE / COACH LOGIN + PAYMENT MANAGER ============ -->
+<div class="ov" id="portal" role="dialog" aria-modal="true" aria-labelledby="portalTitle">
+  <!-- Login -->
+  <div class="dlg" id="loginDlg">
+    <div class="dlg-h"><h3 id="portalTitle">Club Portal Login</h3><button class="x" type="button" data-close-portal aria-label="Close"><svg class="ic"><use href="#i-x"/></svg></button></div>
+    <div class="dlg-b">
+      <div class="tabs" role="tablist"><button type="button" class="on" data-role="coach">Coach</button><button type="button" data-role="athlete">Athlete</button></div>
+
+      <form id="coachLogin" class="stk" novalidate>
+        <div class="field"><label for="cu">Coach Username</label><input id="cu" type="text" autocomplete="username"></div>
+        <div class="field"><label for="cp">Password</label><input id="cp" type="password" autocomplete="current-password"></div>
+        <div id="loginErr" class="msg err" style="display:none">Incorrect username or password.</div>
+        <button class="btn btn-navy" type="submit" style="padding:12px">Login as Coach</button>
+      </form>
+
+      <form id="athleteLookup" class="stk" style="display:none" novalidate>
+        <div class="field"><label for="ap">Your registered phone number</label><input id="ap" type="tel" placeholder="+91 98765 43210"></div>
+        <button class="btn btn-navy" type="submit" style="padding:12px">Check My Payment Status</button>
+        <div id="athRes"></div>
+        <p class="hint">Shows the payment status your coach has recorded for you.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Coach dashboard -->
+  <div class="dlg wide" id="dashDlg" style="display:none">
+    <div class="dlg-h"><h3>Coach Dashboard — Student Payments</h3>
+      <div style="display:flex;gap:8px"><button class="btn btn-outline btn-sm" type="button" id="logoutBtn">Logout</button><button class="x" type="button" data-close-portal aria-label="Close"><svg class="ic"><use href="#i-x"/></svg></button></div></div>
+    <div class="dlg-b">
+      <div class="kpis">
+        <div class="kpi"><small>Students</small><strong id="kTotal">0</strong></div>
+        <div class="kpi"><small>Fully Paid</small><strong id="kPaid">0</strong></div>
+        <div class="kpi"><small>Collected</small><strong id="kColl">₹0</strong></div>
+        <div class="kpi"><small>Outstanding</small><strong id="kOut">₹0</strong></div>
+      </div>
+
+      <div class="edit" id="editBox">
+        <form id="stForm" novalidate>
+          <div class="grid">
+            <div class="field"><label for="s-name">Student name *</label><input id="s-name" type="text"></div>
+            <div class="field"><label for="s-phone">Phone</label><input id="s-phone" type="tel"></div>
+            <div class="field"><label for="s-month">Fee month</label><input id="s-month" type="month"></div>
+            <div class="field"><label for="s-fee">Fee amount (₹)</label><input id="s-fee" type="number" min="0" step="1"></div>
+            <div class="field"><label for="s-paid">Amount paid (₹)</label><input id="s-paid" type="number" min="0" step="1"></div>
+            <div class="field"><label for="s-status">Payment status</label><select id="s-status"><option value="pending">Pending</option><option value="partial">Partial</option><option value="paid">Paid</option></select></div>
+            <div class="field full" style="grid-column:span 2"><label for="s-note">Note (mode, receipt no., etc.)</label><input id="s-note" type="text"></div>
+          </div>
+          <div id="stErr" class="msg err" style="display:none;margin-top:12px"></div>
+          <div class="edit-actions"><button class="btn btn-ok btn-sm" type="submit"><svg class="ic"><use href="#i-check"/></svg><span id="stSaveLbl">Save student</span></button><button class="btn btn-outline btn-sm" type="button" id="stCancel">Cancel</button></div>
+        </form>
+      </div>
+
+      <div class="tools">
+        <input id="q" type="search" placeholder="Search name or phone…" aria-label="Search students">
+        <select id="flt" aria-label="Filter by status"><option value="all">All statuses</option><option value="paid">Paid</option><option value="partial">Partial</option><option value="pending">Pending</option></select>
+        <span class="sp"></span>
+        <button class="btn btn-outline btn-sm" type="button" id="csvBtn"><svg class="ic"><use href="#i-dl"/></svg>Export CSV</button>
+        <button class="btn btn-navy btn-sm" type="button" id="addBtn"><svg class="ic"><use href="#i-plus"/></svg>Add student</button>
+      </div>
+
+      <div class="tw"><table>
+        <thead><tr><th>Student</th><th>Phone</th><th>Month</th><th>Fee</th><th>Paid</th><th>Status</th><th>Updated</th><th>Actions</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table></div>
+      <div id="emptyMsg" class="empty">No students yet — click “Add student” to start recording payments.</div>
+      <p class="hint" style="margin-top:14px">Payment records are saved in this browser only (localStorage). Use “Export CSV” to keep a backup.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ================= CONFIG ================= */
+  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxpZaWCzgclt3PD-dGNJGibIly8lIjHsUxqjLGg2hTsObqtuMUSminXaX52HUdReZfG/exec";
+
+  // Coach login (client-side only — change these before publishing!)
+  var COACH_USER = "coach";
+  var COACH_PASS = "vignesh@2026";
+  var STORE_KEY  = "usa_student_payments_v1";
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+
+  /* ================= NAV ================= */
+  var burger = $("#burger"), nav = $("#nav");
+  burger.addEventListener("click", function () {
+    var open = nav.classList.toggle("open");
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  $$("#nav a").forEach(function (a) {
+    a.addEventListener("click", function () { nav.classList.remove("open"); burger.setAttribute("aria-expanded", "false"); });
+  });
+  var lnks = $$("#nav a.lnk");
+  var secs = lnks.map(function (a) { return $(a.getAttribute("href")); });
+  function spy() {
+    var y = window.scrollY + 140, cur = 0;
+    secs.forEach(function (s, i) { if (s && s.offsetTop <= y) cur = i; });
+    lnks.forEach(function (a, i) { a.classList.toggle("active", i === cur); });
+  }
+  window.addEventListener("scroll", spy, { passive: true }); spy();
+
+  /* ================= GALLERY FILTER ================= */
+  $$(".seg button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      $$(".seg button").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on");
+      var f = b.getAttribute("data-f");
+      $$("#gal .g").forEach(function (g) {
+        var t = (g.getAttribute("data-t") || "").split(" ");
+        g.classList.toggle("hide", f !== "all" && t.indexOf(f) === -1);
+      });
+    });
+  });
+
+  /* ================= ENQUIRY FORM -> GOOGLE SHEETS ================= */
+  var form = $("#enquiryForm"), msg = $("#formMsg"), btn = $("#submitBtn"), lbl = $("#submitLbl");
+
+  function setBusy(b) {
+    btn.disabled = b;
+    lbl.textContent = b ? "Sending…" : "Submit Registration Enquiry";
+  }
+  function showSuccess() {
+    setBusy(false);
+    msg.className = "msg ok";
+    msg.textContent = "Thank you! Your enquiry has been sent. Coach Vignesh will contact you within 24 hours.";
+    form.reset();
+  }
+  function showError() {
+    setBusy(false);
+    msg.className = "msg err";
+    msg.textContent = "Sorry, we could not send your enquiry. Please check your internet connection and try again, or call +91 882 586 0387.";
+  }
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var nameEl = $("#f-name"), phoneEl = $("#f-phone"), emailEl = $("#f-email");
+    var name = nameEl.value.trim(), phone = phoneEl.value.trim(), email = emailEl.value.trim();
+
+    var bad = false;
+    [nameEl, phoneEl, emailEl].forEach(function (e) { e.classList.remove("bad"); });
+    if (!name) { nameEl.classList.add("bad"); bad = true; }
+    if (phone.replace(/\D/g, "").length < 7) { phoneEl.classList.add("bad"); bad = true; }
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { emailEl.classList.add("bad"); bad = true; }
+    if (bad) {
+      msg.className = "msg err";
+      msg.textContent = "Please enter your name, a valid phone number and (optionally) a valid email address.";
+      return;
+    }
+
+    msg.className = "msg"; msg.textContent = "";
+    setBusy(true);
+
+    var url = SCRIPT_URL + "?" + new URLSearchParams({ name, email, phone });
+    fetch(url, { method: "GET", mode: "no-cors" })
+      .then(() => showSuccess())
+      .catch(() => showError());
+  });
+
+  /* ================= PORTAL ================= */
+  var portal = $("#portal"), loginDlg = $("#loginDlg"), dashDlg = $("#dashDlg");
+  var isCoach = false;
+
+  function openPortal() {
+    portal.classList.add("open");
+    document.body.style.overflow = "hidden";
+    if (isCoach) { showDash(); } else { loginDlg.style.display = ""; dashDlg.style.display = "none"; }
+  }
+  function closePortal() {
+    portal.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+  $$("[data-open-portal]").forEach(function (b) { b.addEventListener("click", function () { nav.classList.remove("open"); openPortal(); }); });
+  $$("[data-close-portal]").forEach(function (b) { b.addEventListener("click", closePortal); });
+  portal.addEventListener("mousedown", function (e) { if (e.target === portal) closePortal(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && portal.classList.contains("open")) closePortal(); });
+
+  $$(".tabs button").forEach(function (t) {
+    t.addEventListener("click", function () {
+      $$(".tabs button").forEach(function (x) { x.classList.remove("on"); });
+      t.classList.add("on");
+      var coach = t.getAttribute("data-role") === "coach";
+      $("#coachLogin").style.display = coach ? "" : "none";
+      $("#athleteLookup").style.display = coach ? "none" : "";
+    });
+  });
+
+  $("#coachLogin").addEventListener("submit", function (e) {
+    e.preventDefault();
+    if ($("#cu").value.trim() === COACH_USER && $("#cp").value === COACH_PASS) {
+      isCoach = true; $("#loginErr").style.display = "none"; $("#cp").value = "";
+      showDash();
+    } else {
+      $("#loginErr").style.display = "block";
+    }
+  });
+  $("#logoutBtn").addEventListener("click", function () {
+    isCoach = false; closeEditor();
+    loginDlg.style.display = ""; dashDlg.style.display = "none";
+  });
+
+  /* ---------- storage ---------- */
+  var students = [];
+  function load() {
+    try { students = JSON.parse(localStorage.getItem(STORE_KEY) || "[]") || []; } catch (e) { students = []; }
+  }
+  function save() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(students)); } catch (e) { /* storage blocked */ }
+  }
+  function uid() { return "s" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+  function inr(n) { return "₹" + (Number(n) || 0).toLocaleString("en-IN"); }
+  function last10(p) { return String(p || "").replace(/\D/g, "").slice(-10); }
+  function fmtMonth(m) {
+    if (!m) return "—";
+    var p = m.split("-"); var d = new Date(+p[0], +p[1] - 1, 1);
+    return d.toLocaleString("en-IN", { month: "short", year: "numeric" });
+  }
+  function fmtDate(t) {
+    return t ? new Date(t).toLocaleString("en-IN", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }) : "—";
+  }
+  function label(s) { return s === "paid" ? "Paid" : s === "partial" ? "Partial" : "Pending"; }
+
+  /* ---------- dashboard ---------- */
+  function showDash() {
+    loginDlg.style.display = "none"; dashDlg.style.display = "";
+    load(); render();
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function actBtn(txt, cls, icon, fn) {
+    var b = el("button", "btn btn-sm " + cls);
+    b.type = "button";
+    b.innerHTML = '<svg class="ic"><use href="#' + icon + '"/></svg>';
+    b.appendChild(document.createTextNode(txt));
+    b.addEventListener("click", fn);
+    return b;
+  }
+
+  function render() {
+    var q = $("#q").value.trim().toLowerCase(), f = $("#flt").value;
+    var tb = $("#tbody"); tb.innerHTML = "";
+    var rows = students.filter(function (s) {
+      var hit = !q || s.name.toLowerCase().indexOf(q) > -1 || String(s.phone).indexOf(q) > -1;
+      return hit && (f === "all" || s.status === f);
+    });
+    rows.forEach(function (s) {
+      var tr = el("tr");
+      tr.appendChild(el("td", "", s.name));
+      tr.appendChild(el("td", "", s.phone || "—"));
+      tr.appendChild(el("td", "", fmtMonth(s.month)));
+      tr.appendChild(el("td", "", inr(s.fee)));
+      tr.appendChild(el("td", "", inr(s.paid)));
+      var tdS = el("td"); tdS.appendChild(el("span", "st " + s.status, label(s.status))); tr.appendChild(tdS);
+      tr.appendChild(el("td", "", fmtDate(s.updated)));
+      var tdA = el("td"); var box = el("div"); box.style.cssText = "display:flex;gap:6px;flex-wrap:nowrap";
+      if (s.status !== "paid") box.appendChild(actBtn("Mark paid", "btn-ok", "i-check", function () { markPaid(s.id); }));
+      box.appendChild(actBtn("Edit", "btn-outline", "i-edit", function () { openEditor(s.id); }));
+      box.appendChild(actBtn("", "btn-danger", "i-del", function () { removeStudent(s.id); }));
+      tdA.appendChild(box); tr.appendChild(tdA);
+      tb.appendChild(tr);
+    });
+    $("#emptyMsg").style.display = rows.length ? "none" : "block";
+    $("#emptyMsg").textContent = students.length ? "No students match your search." : "No students yet — click “Add student” to start recording payments.";
+
+    var paidCount = students.filter(function (s) { return s.status === "paid"; }).length;
+    var coll = students.reduce(function (a, s) { return a + (+s.paid || 0); }, 0);
+    var out = students.reduce(function (a, s) { return a + Math.max((+s.fee || 0) - (+s.paid || 0), 0); }, 0);
+    $("#kTotal").textContent = students.length;
+    $("#kPaid").textContent = paidCount;
+    $("#kColl").textContent = inr(coll);
+    $("#kOut").textContent = inr(out);
+  }
+  $("#q").addEventListener("input", render);
+  $("#flt").addEventListener("change", render);
+
+  function markPaid(id) {
+    students.forEach(function (s) {
+      if (s.id === id) { s.paid = +s.fee || 0; s.status = "paid"; s.updated = Date.now(); }
+    });
+    save(); render();
+  }
+  function removeStudent(id) {
+    var s = students.filter(function (x) { return x.id === id; })[0];
+    if (!s || !window.confirm("Delete " + s.name + " and their payment record?")) return;
+    students = students.filter(function (x) { return x.id !== id; });
+    save(); render();
+  }
+
+  /* ---------- editor ---------- */
+  var editId = null, editBox = $("#editBox");
+  function nowMonth() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2); }
+  function openEditor(id) {
+    editId = id || null;
+    var s = students.filter(function (x) { return x.id === id; })[0] || { name: "", phone: "", month: nowMonth(), fee: "", paid: 0, status: "pending", note: "" };
+    $("#s-name").value = s.name; $("#s-phone").value = s.phone || ""; $("#s-month").value = s.month || nowMonth();
+    $("#s-fee").value = s.fee; $("#s-paid").value = s.paid; $("#s-status").value = s.status; $("#s-note").value = s.note || "";
+    $("#stSaveLbl").textContent = id ? "Update payment" : "Save student";
+    $("#stErr").style.display = "none";
+    editBox.classList.add("open");
+    $("#s-name").focus();
+  }
+  function closeEditor() { editBox.classList.remove("open"); editId = null; }
+  $("#addBtn").addEventListener("click", function () { openEditor(null); });
+  $("#stCancel").addEventListener("click", closeEditor);
+
+  // Suggest a status when amounts change (coach can still override manually)
+  function suggest() {
+    var fee = +$("#s-fee").value || 0, paid = +$("#s-paid").value || 0;
+    if (paid <= 0) $("#s-status").value = "pending";
+    else if (fee > 0 && paid >= fee) $("#s-status").value = "paid";
+    else $("#s-status").value = "partial";
+  }
+  $("#s-fee").addEventListener("input", suggest);
+  $("#s-paid").addEventListener("input", suggest);
+
+  $("#stForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = $("#s-name").value.trim();
+    var err = $("#stErr");
+    if (!name) { err.textContent = "Student name is required."; err.style.display = "block"; return; }
+    var rec = {
+      id: editId || uid(), name: name, phone: $("#s-phone").value.trim(), month: $("#s-month").value,
+      fee: +$("#s-fee").value || 0, paid: +$("#s-paid").value || 0, status: $("#s-status").value,
+      note: $("#s-note").value.trim(), updated: Date.now()
+    };
+    if (editId) students = students.map(function (s) { return s.id === editId ? rec : s; });
+    else students.unshift(rec);
+    save(); closeEditor(); render();
+  });
+
+  /* ---------- CSV export ---------- */
+  $("#csvBtn").addEventListener("click", function () {
+    var head = ["Name", "Phone", "Month", "Fee", "Paid", "Status", "Note", "Last updated"];
+    var lines = [head.join(",")].concat(students.map(function (s) {
+      return [s.name, s.phone, s.month, s.fee, s.paid, label(s.status), s.note, new Date(s.updated).toISOString()]
+        .map(function (v) { return '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"'; }).join(",");
+    }));
+    var blob = new Blob([lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "student-payments.csv";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 500);
+  });
+
+  /* ---------- athlete lookup ---------- */
+  $("#athleteLookup").addEventListener("submit", function (e) {
+    e.preventDefault();
+    load();
+    var out = $("#athRes"); out.innerHTML = "";
+    var key = last10($("#ap").value);
+    var s = key.length >= 7 ? students.filter(function (x) { return last10(x.phone) === key; })[0] : null;
+    var box = el("div", "res");
+    if (!s) { box.textContent = "No payment record found for this number. Please contact Coach Vignesh at +91 882 586 0387."; }
+    else {
+      box.appendChild(el("b", "", s.name));
+      box.appendChild(el("span", "", "Month: " + fmtMonth(s.month)));
+      box.appendChild(el("span", "", "Fee: " + inr(s.fee) + "  •  Paid: " + inr(s.paid)));
+      var st = el("span"); st.appendChild(el("span", "st " + s.status, label(s.status))); box.appendChild(st);
+      if (s.note) box.appendChild(el("span", "", "Note: " + s.note));
+      box.appendChild(el("span", "hint", "Last updated: " + fmtDate(s.updated)));
+    }
+    out.appendChild(box);
+  });
+})();
+</script>
+</body>
+</html>
